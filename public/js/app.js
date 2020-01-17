@@ -20,7 +20,7 @@ weatherForm.addEventListener(`submit`,(e)=>{
         else{
             
             messageOne.textContent=data.Location
-            messageTwo.textContent=`It is `+data.forecast.Summary+`with current temperature being `+ data.forecast.Temperature+` degree celcius. The probability of rain is `+ data.forecast.Probability_of_rain+`%` 
+            messageTwo.textContent=`Hello there!. It is `+data.forecast.Summary+`with current temperature being `+ data.forecast.Temperature+` degree celcius. The probability of rain is `+ data.forecast.Probability_of_rain+`%` 
         }
         
         // console.log(data.forecast.Summary)//    Instead of specifying each object we can 
